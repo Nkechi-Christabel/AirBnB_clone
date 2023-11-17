@@ -1,0 +1,36 @@
+.popover {
+  width: 100%;
+  background: #fafafa;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 20px 0;
+  margin-top: -1px;
+  display: none;
+  position: relative;
+  z-index: 1;
+}
+
+.locations,
+.amenities {
+  cursor: pointer;
+}
+
+.locations:hover .popover,
+.amenities:hover .popover {
+  display: block;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li:not(:has(> h2)) {
+  padding: 3px 0 3px 35px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  padding-left: 5px;
+}
