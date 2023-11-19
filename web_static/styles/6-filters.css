@@ -1,4 +1,4 @@
-.popover {
+.filters .popover {
   width: 100%;
   background: #fafafa;
   border: 1px solid #dddddd;
@@ -10,27 +10,27 @@
   z-index: 1;
 }
 
-.locations,
-.amenities {
+.filters .locations,
+.filters .amenities {
   cursor: pointer;
 }
 
-.locations:hover .popover,
-.amenities:hover .popover {
+.filters .locations:hover .popover,
+.filters .amenities:hover .popover {
   display: block;
 }
 
-ul {
+.filters ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-li:not(:has(> h2)) {
+.filters .popover li:not(:has(> h2)) {
   padding: 3px 0 3px 35px;
 }
 
-h2 {
+.filters .popover h2 {
   margin-bottom: 5px;
   padding-left: 5px;
 }

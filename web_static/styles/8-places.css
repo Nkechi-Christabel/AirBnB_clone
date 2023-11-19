@@ -48,6 +48,7 @@
 .number_rooms,
 .number_bathrooms {
   width: 100px;
+  padding: 5px 0;
 }
 
 .max_guest p,
@@ -56,6 +57,15 @@
   margin: 0;
 }
 
+.user p {
+  padding-top: 4px;
+  margin-bottom: 0;
+}
+
 .user span {
   font-weight: 900;
+}
+
+.description p {
+  margin-top: 8px;
 }

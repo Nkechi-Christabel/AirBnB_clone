@@ -22,29 +22,29 @@
   cursor: pointer;
 }
 
-.locations,
-.amenities {
+.filters .locations,
+.filters .amenities {
   height: 100%;
   width: 25%;
   flex: 1;
 }
 
-.locations {
+.filters .locations {
   border-right: 1px solid #dddddd;
 }
 
-h3 {
+.filters h3 {
   font-weight: 600;
   margin: 15px 0 0 0;
 }
 
-h4 {
+.filters h4 {
   font-weight: 400;
   font-size: 14px;
   margin: 5px 0 15px 0;
 }
 
-h3,
-h4 {
+.filters h3,
+.filters h4 {
   padding-left: 35px;
 }
